@@ -2,15 +2,13 @@
 
 DevDocs combines multiple API documentations in a fast, organized, and searchable interface.
 
-* Created by [Thibaut Courouble](http://thibaut.me)
+* Created by [Thibaut Courouble](https://thibaut.me)
 
 Keep track of development news:
 
 * Watch the repository on [GitHub](https://github.com/Thibaut/devdocs/subscription)
 * Follow [@DevDocs](https://twitter.com/DevDocs) on Twitter
 * Join the [mailing list](https://groups.google.com/d/forum/devdocs)
-
-DevDocs is free and open source. If you like it, please consider supporting my work on [Gratipay](https://gratipay.com/devdocs/). Thanks!
 
 **Table of Contents:** [Quick Start](#quick-start) · [Vision](#vision) · [App](#app) · [Scraper](#scraper) · [Commands](#available-commands) · [Contributing](#contributing) · [License](#copyright--license) · [Questions?](#questions)
 
@@ -20,7 +18,7 @@ Unless you wish to contribute to the project, I recommend using the hosted versi
 
 DevDocs is made of two pieces: a Ruby scraper that generates the documentation and metadata, and a JavaScript app powered by a small Sinatra app.
 
-DevDocs requires Ruby 2.4.1, libcurl, and a JavaScript runtime supported by [ExecJS](https://github.com/rails/execjs#readme) (included in OS X and Windows; [Node.js](https://nodejs.org/en/) on Linux). Once you have these installed, run the following commands:
+DevDocs requires Ruby 2.4.2, libcurl, and a JavaScript runtime supported by [ExecJS](https://github.com/rails/execjs#readme) (included in OS X and Windows; [Node.js](https://nodejs.org/en/) on Linux). Once you have these installed, run the following commands:
 
 ```
 git clone https://github.com/Thibaut/devdocs.git && cd devdocs
@@ -140,7 +138,7 @@ DevDocs's own documentation is available on the [wiki](https://github.com/Thibau
 
 ## Copyright / License
 
-Copyright 2013-2017 Thibaut Courouble and [other contributors](https://github.com/Thibaut/devdocs/graphs/contributors)
+Copyright 2013-2018 Thibaut Courouble and [other contributors](https://github.com/Thibaut/devdocs/graphs/contributors)
 
 This software is licensed under the terms of the Mozilla Public License v2.0. See the [COPYRIGHT](https://github.com/Thibaut/devdocs/blob/master/COPYRIGHT) and [LICENSE](https://github.com/Thibaut/devdocs/blob/master/LICENSE) files.
 

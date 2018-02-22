@@ -11,9 +11,9 @@ app.templates.aboutPage = -> """
   </nav>
 
   <h1 class="_lined-heading">DevDocs: API Documentation Browser</h1>
-  <p>DevDocs combines multiple API documentations in a fast, organized, and searchable interface.
+  <p>DevDocs combines multiple API documentations in a clean and organized web UI with instant search, offline support, mobile version, dark theme, keyboard shortcuts, and more.
   <ul>
-    <li>Created and maintained by <a href="http://thibaut.me">Thibaut Courouble</a>
+    <li>Created and maintained by <a href="https://thibaut.me">Thibaut Courouble</a>
     <li>Free and <a href="https://github.com/Thibaut/devdocs">open source</a>
         <iframe class="_github-btn" src="https://ghbtns.com/github-btn.html?user=Thibaut&repo=devdocs&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20" tabindex="-1"></iframe>
   </ul>
@@ -23,12 +23,10 @@ app.templates.aboutPage = -> """
     <li>Watch the repository on <a href="https://github.com/Thibaut/devdocs/subscription">GitHub</a>
     <li>Join the <a href="https://groups.google.com/d/forum/devdocs">mailing list</a>
   </ul>
-  <p class="_note _note-green">If you like DevDocs, please consider supporting my work on
-    <a href="https://gratipay.com/devdocs/">Gratipay</a>. Thanks!<br>
 
   <h2 class="_block-heading" id="copyright">Copyright and License</h2>
   <p class="_note">
-    <strong>Copyright 2013&ndash;2017 Thibaut Courouble and <a href="https://github.com/Thibaut/devdocs/graphs/contributors">other contributors</a></strong><br>
+    <strong>Copyright 2013&ndash;2018 Thibaut Courouble and <a href="https://github.com/Thibaut/devdocs/graphs/contributors">other contributors</a></strong><br>
     This software is licensed under the terms of the Mozilla Public License v2.0.<br>
     You may obtain a copy of the source code at <a href="https://github.com/Thibaut/devdocs">github.com/Thibaut/devdocs</a>.<br>
     For more information, see the <a href="https://github.com/Thibaut/devdocs/blob/master/COPYRIGHT">COPYRIGHT</a>
@@ -60,11 +58,10 @@ app.templates.aboutPage = -> """
 
   <p><strong>Special thanks to:</strong>
   <ul>
-    <li><a href="http://out.devdocs.io/s/maxcdn">MaxCDN</a> and <a href="http://get.gaug.es/?utm_source=devdocs&utm_medium=referral&utm_campaign=sponsorships" title="Real Time Web Analytics">Gauges</a> for offering a free account to DevDocs
-    <li><a href="http://out.devdocs.io/s/maxcdn">MaxCDN</a>, <a href="http://out.devdocs.io/s/shopify">Shopify</a>, <a href="http://out.devdocs.io/s/jetbrains">JetBrains</a> and <a href="http://out.devdocs.io/s/code-school">Code School</a> for sponsoring DevDocs in the past
+    <li><a href="https://out.devdocs.io/s/maxcdn">MaxCDN</a>, <a href="https://sentry.io/">Sentry</a> and <a href="http://get.gaug.es/?utm_source=devdocs&utm_medium=referral&utm_campaign=sponsorships" title="Real Time Web Analytics">Gauges</a> for offering a free account to DevDocs
+    <li><a href="https://out.devdocs.io/s/maxcdn">MaxCDN</a>, <a href="https://out.devdocs.io/s/shopify">Shopify</a>, <a href="https://out.devdocs.io/s/jetbrains">JetBrains</a> and <a href="https://out.devdocs.io/s/code-school">Code School</a> for sponsoring DevDocs in the past
     <li><a href="https://www.heroku.com">Heroku</a> and <a href="http://newrelic.com">New Relic</a> for providing awesome free service
-    <li>Daniel Bruce for the <a href="http://www.entypo.com">Entypo</a> pictograms
-    <li><a href="http://www.jeremykratz.com/">Jeremy Kratz</a> for the C/C++ logo
+    <li><a href="https://www.jeremykratz.com/">Jeremy Kratz</a> for the C/C++ logo
   </ul>
 
   <div class="_table">
@@ -90,7 +87,7 @@ app.templates.aboutPage = -> """
 
 credits = [
   [ 'Angular<br>Angular.js',
-    '2010-2017 Google, Inc.',
+    '2010-2018 Google, Inc.',
     'CC BY',
     'https://creativecommons.org/licenses/by/4.0/'
   ], [
@@ -109,13 +106,23 @@ credits = [
     'MIT',
     'https://raw.githubusercontent.com/caolan/async/master/LICENSE'
   ], [
+    'Babel',
+    '2018 Sebastian McKenzie',
+    'MIT',
+    'https://raw.githubusercontent.com/babel/website/master/LICENSE'
+  ], [
     'Backbone.js',
     '2010-2016 Jeremy Ashkenas, DocumentCloud',
     'MIT',
     'https://raw.githubusercontent.com/jashkenas/backbone/master/LICENSE'
   ], [
+    'Bluebird',
+    '2013-2017 Petka Antonov',
+    'MIT',
+    'https://raw.githubusercontent.com/petkaantonov/bluebird/master/LICENSE'
+  ], [
     'Bootstrap',
-    '2011-2017 Twitter, Inc.<br>2011-2017 The Bootstrap Authors',
+    '2011-2018 Twitter, Inc.<br>2011-2018 The Bootstrap Authors',
     'CC BY',
     'https://creativecommons.org/licenses/by/3.0/'
   ], [
@@ -125,7 +132,7 @@ credits = [
     'https://raw.githubusercontent.com/bottlepy/bottle/master/LICENSE'
   ], [
     'Bower',
-    '2016 Bower contributors',
+    '2017 Bower contributors',
     'MIT',
     'https://github.com/bower/bower.github.io/blob/1057905c18d899106f91372e6cca7ef54a91d60f/package.json#L20'
   ], [
@@ -194,6 +201,11 @@ credits = [
     'Apache',
     'https://raw.githubusercontent.com/crystal-lang/crystal/master/LICENSE'
   ], [
+    'D',
+    '1999-2017 The D Language Foundation',
+    'Boost',
+    'https://raw.githubusercontent.com/dlang/phobos/master/LICENSE_1_0.txt'
+  ], [
     'D3.js',
     '2010-2017 Michael Bostock',
     'BSD',
@@ -205,9 +217,9 @@ credits = [
     'https://raw.githubusercontent.com/django/django/master/LICENSE'
   ], [
     'Docker',
-    '2013-2016 Docker, Inc.<br>Docker and the Docker logo are trademarks of Docker, Inc.',
+    '2017 Docker, Inc.<br>Docker and the Docker logo are trademarks of Docker, Inc.',
     'Apache',
-    'https://raw.githubusercontent.com/docker/docker/master/LICENSE'
+    'https://raw.githubusercontent.com/docker/docker.github.io/master/LICENSE'
   ], [
     'Dojo',
     '2005-2017 JS Foundation',
@@ -225,7 +237,7 @@ credits = [
     'https://raw.githubusercontent.com/electron/electron/master/LICENSE'
   ], [
     'Elixir',
-    '2012-2017 Plataformatec',
+    '2012 Plataformatec',
     'Apache',
     'https://raw.githubusercontent.com/elixir-lang/elixir/master/LICENSE'
   ], [
@@ -239,8 +251,13 @@ credits = [
     'Apache',
     'https://raw.githubusercontent.com/erlang/otp/maint/LICENSE.txt'
   ], [
+    'ESLint',
+    'JS Foundation and other contributors',
+    'MIT',
+    'https://raw.githubusercontent.com/eslint/eslint/master/LICENSE'
+  ], [
     'Express',
-    '2016 StrongLoop, IBM, and other expressjs.com contributors.',
+    '2017 StrongLoop, IBM, and other expressjs.com contributors.',
     'CC BY-SA',
     'https://raw.githubusercontent.com/expressjs/expressjs.com/gh-pages/LICENSE.md'
   ], [
@@ -289,6 +306,11 @@ credits = [
     'MIT',
     'http://haxe.org/foundation/open-source.html'
   ], [
+    'Homebrew',
+    '2009-present Homebrew contributors',
+    'BSD',
+    'https://raw.githubusercontent.com/Homebrew/brew/master/LICENSE.txt'
+  ], [
     'Immutable.js',
     '2014-2016 Facebook, Inc.',
     'BSD',
@@ -303,6 +325,11 @@ credits = [
     '2008-2017 Pivotal Labs',
     'MIT',
     'https://raw.githubusercontent.com/jasmine/jasmine/master/MIT.LICENSE'
+  ], [
+    'Jekyll',
+    '2008-2018 Tom Preston-Werner and Jekyll contributors',
+    'MIT',
+    'https://raw.githubusercontent.com/jekyll/jekyll/master/LICENSE'
   ], [
     'Jest',
     '2014-present Facebook Inc.',
@@ -328,6 +355,11 @@ credits = [
     '2009-2016 Jeff Bezanson, Stefan Karpinski, Viral B. Shah, and other contributors',
     'MIT',
     'https://raw.githubusercontent.com/JuliaLang/julia/master/LICENSE.md'
+  ], [
+    'JSDoc',
+    '2011-2017 the contributors to the JSDoc 3 documentation project',
+    'CC BY-SA',
+    'https://raw.githubusercontent.com/jsdoc3/jsdoc3.github.com/master/LICENSE'
   ], [
     'Knockout.js',
     'Steven Sanderson, the Knockout.js team, and other contributors',
@@ -395,7 +427,7 @@ credits = [
     'https://github.com/seattlerb/minitest/blob/master/README.rdoc#license'
   ], [
     'Mocha',
-    '2016 JS Foundation and contributors',
+    '2011-2017 JS Foundation and contributors',
     'CC BY',
     'https://creativecommons.org/licenses/by/4.0/'
   ], [
@@ -424,13 +456,18 @@ credits = [
     'BSD',
     'https://github.com/openresty/lua-nginx-module#copyright-and-license'
   ], [
+    'Nim',
+    '2006-2017 Andreas Rumpf',
+    'MIT',
+    'https://github.com/nim-lang/Nim#license'
+  ], [
     'Node.js',
     'Joyent, Inc. and other Node contributors<br>Node.js is a trademark of Joyent, Inc.',
     'MIT',
     'https://raw.githubusercontent.com/nodejs/node/master/LICENSE'
   ], [
     'Nokogiri',
-    '2008-2016 Aaron Patterson, Mike Dalessio, Charles Nutter, Sergio Arbeo, Patrick Mahoney, Yoko Harada, Akinori Musha, John Shahid',
+    '2008-2017 Aaron Patterson, Mike Dalessio, Charles Nutter, Sergio Arbeo, Patrick Mahoney, Yoko Harada, Akinori Musha, John Shahid',
     'MIT',
     'https://raw.githubusercontent.com/sparklemotion/nokogiri/master/LICENSE.txt'
   ], [
@@ -500,7 +537,7 @@ credits = [
     'https://www.postgresql.org/about/licence/'
   ], [
     'Python',
-    '2001-2017 Python Software Foundation<br>Python is a trademark of the Python Software Foundation.',
+    '2001-2018 Python Software Foundation<br>Python is a trademark of the Python Software Foundation.',
     'PSFL',
     'https://docs.python.org/3/license.html'
   ], [
@@ -515,9 +552,9 @@ credits = [
     'https://raw.githubusercontent.com/ramda/ramda/master/LICENSE.txt'
   ], [
     'React, React Native, Flow, Relay',
-    '2013-2017 Facebook Inc.',
+    '2013-present Facebook Inc.',
     'CC BY',
-    'https://raw.githubusercontent.com/facebook/react/master/LICENSE-docs'
+    'https://raw.githubusercontent.com/reactjs/reactjs.org/master/LICENSE-DOCS.md'
   ], [
     'Redis',
     '2009-2017 Salvatore Sanfilippo',
@@ -565,12 +602,12 @@ credits = [
     'http://scikit-image.org/docs/dev/license.html'
   ], [
     'scikit-learn',
-    '2007-2016 The scikit-learn developers',
+    '2007-2017 The scikit-learn developers',
     'BSD',
     'https://raw.githubusercontent.com/scikit-learn/scikit-learn/master/COPYING'
   ], [
     'Sinon',
-    '2010-2017 Christian Johansen',
+    '2010-2018 Christian Johansen',
     'BSD',
     'https://raw.githubusercontent.com/sinonjs/sinon/master/LICENSE'
   ], [
@@ -628,6 +665,11 @@ credits = [
     '2013-2017 Evan You, Vue.js contributors',
     'MIT',
     'https://raw.githubusercontent.com/vuejs/vue/master/LICENSE'
+  ], [
+    'Vulkan',
+    '2014-2017 Khronos Group Inc.<br>Vulkan and the Vulkan logo are registered trademarks of the Khronos Group Inc.',
+    'CC BY',
+    'https://creativecommons.org/licenses/by/4.0/'
   ], [
     'webpack',
     'JS Foundation and other contributors',
